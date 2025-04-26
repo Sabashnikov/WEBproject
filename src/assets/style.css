@@ -1,0 +1,224 @@
+@media (min-width: 1200px){
+    html {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+    }
+    .header{
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+    .logoimage{
+        margin-right: 50%;
+    }
+    .line{
+        background-color: black;
+        height: 2px;
+        width: 100%;
+    }
+    .buttonlk{
+        border-radius: 20px;
+        border-color: black;
+        background-color: #ffffff;
+    }
+    .buttonplan{
+        color:#ffffff;
+        background-color: rgb(35, 204, 35);
+        border-radius: 8px;
+        border-color: rgb(28, 214, 28);
+    }
+    
+    main {
+        padding: 20px;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .mainimage {
+        width: 85%;
+        height: 90%; 
+        margin-left: 12%;
+        border-radius: 15px;
+        min-height: 60%;
+        min-width: 47%;
+    }
+    .route-image{
+        width: 50%;
+        height: 60%; 
+        border-radius: 15px;
+        min-height: 60%;
+        min-width: 47%;
+    }
+    .title{
+        margin-left: 5%;
+        width: 30%;
+    }
+    .content{
+        margin-left: 5%;
+        font-size: 18px;
+        line-height: 25px;
+        width: 110%;
+    }
+    .buttonbegin{
+        color:#ffffff;
+        background-color: rgb(28, 214, 28);
+        border-radius: 8px;
+        font-size: 20px;
+        border-color: rgb(28, 214, 28);
+    }
+    .planBut{
+        color:#ffffff;
+        background-color: rgb(28, 214, 28);
+        border-radius: 8px;
+        font-size: 20px;
+        border-color: rgb(28, 214, 28);
+    }
+    .closeBut{
+        color:#060606;
+        background-color: rgb(229, 229, 229);
+        border-radius: 8px;
+        font-size: 20px;
+        border-color: rgb(138, 138, 138);
+    }
+    button {
+        margin-left: 10px;
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+    .selectButton{
+        color:#ffffff;
+        background-color: rgb(28, 121, 214);
+        border-radius: 8px;
+        font-size: 20px;
+        border-color: rgb(28, 121, 214);
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .adark{
+        color: black;
+    }
+    
+    
+    footer {
+        background-color: #15446b;
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        color: white;
+        padding: 10px;
+        bottom: 0;
+        width: 100%;
+    }
+    .footertitle{
+        margin-left: 3%;
+        font-size: 20px;
+    }
+    .link{
+        margin-right: 5%;
+    }
+    }
+    
+    
+    
+    @media (min-width: 300px) and (max-width: 1200px){
+        html {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 10px 20px;
+        }
+        .header {
+            display: flex; 
+            flex-direction: column;
+            align-items: center; 
+        }
+        .logoimage {
+            margin-bottom: 10px;
+        }
+        .line {
+            background-color: black;
+            height: 2px;
+            width: 100%;
+        }
+        .buttonlk {
+            border-radius: 20px;
+            border-color: black;
+            background-color: #ffffff;
+        }
+        .buttonplan {
+            color: #ffffff;
+            background-color: rgb(35, 204, 35);
+            border-radius: 8px;
+            border-color: rgb(28, 214, 28);
+        }
+        main {
+            padding: 10px;
+        }
+        .title {
+            margin-left: 5%;
+            width: 90%;
+        }
+        button {
+            margin-left: 10px;
+            padding: 10px;
+            font-size: 14px;
+        }
+        .buttonbegin{
+            color:#ffffff;
+            background-color: rgb(28, 214, 28);
+            border-radius: 8px;
+            font-size: 20px;
+            border-color: rgb(28, 214, 28);
+        }
+        .mainimage {
+            width: 85%;
+            height: 90%; 
+            margin-left: 12%;
+            border-radius: 15px;
+            min-height: 60%;
+            min-width: 47%;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .adark {
+            color: black;
+        }
+        .content {
+            margin-left: 5%;
+            font-size: 16px;
+            line-height: 22px;
+            width: 90%;
+        }
+        footer {
+            background-color: #15446b;
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            color: white;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+        .footertitle{
+            margin-left: 3%;
+            font-size: 20px;
+        }
+        .link{
+            margin-right: 5%;
+        }
+    }

@@ -1,0 +1,255 @@
+@media (min-width: 1200px) {
+    html {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+    }
+    .header{
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+    .logoimage{
+        margin-right: 60%;
+    }
+    .line{
+        background-color: black;
+        height: 2px;
+        width: 100%;
+    }
+    .buttonlk{
+        border-radius: 20px;
+        border-color: black;
+        background-color: #ffffff;
+    }
+    .buttonplan{
+        color:#ffffff;
+        background-color: rgb(35, 204, 35);
+        border-radius: 8px;
+        border-color: rgb(28, 214, 28);
+    }
+    
+    main {
+        padding: 20px;
+    }
+    .title{
+        margin-left: 5%;
+        width: 40%;
+    }
+    button {
+        margin-left: 10px;
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .adark{
+        color: black;
+    }
+    #map {
+        height: 500px;
+        width: 60%;
+        margin-left: 3%;
+        border: 5px solid rgb(43, 113, 226);
+        border-radius: 10px;
+    }
+    #gear-list {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 20px;
+        width: 40%;
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+    .content{
+        margin-left: 5%;
+        font-size: 18px;
+        line-height: 25px;
+        width: 90%;
+    }
+    .buttons{
+        margin-top: 3%;
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        width: 60%;
+    }
+    .addbutton{
+        background-color: rgb(36, 105, 201);
+        color:white; 
+        margin-right: 5%;
+        border-radius: 8px;
+        border-color:  rgb(23, 79, 158);
+    }
+    .savebutton{
+        background-color: rgb(40, 207, 35);
+        color:white; 
+        margin-right: 5%;
+        border-radius: 8px;
+        border-color:  rgb(20, 154, 114);
+    }
+    #get-gear-button{
+        background-color: rgb(41, 193, 33);
+        color:white; 
+        border-radius: 8px;
+        width: 25%;
+        font-size: 16px;
+        border-color:  rgb(26, 164, 28);
+    }
+    #add-gear-form{
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+    #new-gear{
+        font-size: 20px;
+        width: 90%;
+    }
+    
+    footer {
+        background-color: #15446b;
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        color: white;
+        padding: 10px;
+        bottom: 0;
+        width: 100%;
+    }
+    .footertitle{
+        margin-left: 3%;
+        font-size: 20px;
+    }
+    .link{
+        margin-right: 5%;
+    }
+    }
+    
+    @media (min-width: 300px) and (max-width: 1200px){
+        html {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 10px 20px;
+        }
+        .header {
+            display: flex; 
+            flex-direction: column;
+            align-items: center; 
+        }
+        .logoimage {
+            margin-bottom: 10px;
+        }
+        .line {
+            background-color: black;
+            height: 2px;
+            width: 100%;
+        }
+        .buttonlk {
+            border-radius: 20px;
+            border-color: black;
+            background-color: #ffffff;
+        }
+        .buttonplan {
+            color: #ffffff;
+            background-color: rgb(35, 204, 35);
+            border-radius: 8px;
+            border-color: rgb(28, 214, 28);
+        }
+        main {
+            padding: 10px;
+        }
+        .title {
+            margin-left: 5%;
+            width: 90%;
+        }
+        button {
+            margin-left: 10px;
+            padding: 10px;
+            font-size: 14px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .adark {
+            color: black;
+        }
+        #map {
+            height: 300px; /* Уменьшено для мобильной версии */
+            width: 90%; /* Изменено для мобильной версии */
+            margin-left: auto; /* Центрирование */
+            margin-right: auto; /* Центрирование */
+            border: 5px solid rgb(43, 113, 226);
+            border-radius: 10px;
+        }
+        #gear-list {
+            padding-top: 2%;
+            padding-bottom: 2%;
+            margin-top: 20px;
+            width: 90%; /* Изменено для мобильной версии */
+            border: 3px solid black;
+            border-radius: 5px;
+        }
+        .content {
+            margin-left: 5%;
+            font-size: 16px; /* Уменьшено для мобильной версии */
+            line-height: 22px; /* Уменьшено для мобильной версии */
+            width: 90%;
+        }
+        .buttons {
+            margin-top: 3%;
+            display: flex; 
+            flex-direction: column; /* Изменено для мобильной версии */
+            align-items: center; 
+        }
+        .addbutton{
+            background-color: rgb(36, 105, 201);
+            color:white; 
+            margin-right: 5%;
+            border-radius: 8px;
+            border-color:  rgb(23, 79, 158);
+        }
+        .savebutton{
+            background-color: rgb(40, 207, 35);
+            color:white; 
+            margin-right: 5%;
+            border-radius: 8px;
+            border-color:  rgb(20, 154, 114);
+        }
+        #get-gear-button {
+            background-color: rgb(44, 204, 47);
+            color: white; 
+            margin-bottom: 10px; 
+            border-radius: 8px;
+            width: 80%; 
+        }
+        footer {
+            background-color: #15446b;
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            color: white;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+        .footertitle{
+            margin-left: 3%;
+            font-size: 20px;
+        }
+        .link{
+            margin-right: 5%;
+        }
+    }
