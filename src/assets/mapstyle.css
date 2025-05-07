@@ -53,12 +53,51 @@
     .adark{
         color: black;
     }
+    .map-container {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
     #map {
         height: 500px;
         width: 60%;
         margin-left: 3%;
         border: 5px solid rgb(43, 113, 226);
         border-radius: 10px;
+    }
+    .map-instructions {
+        width: 30%;
+        padding: 15px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        border: 2px solid rgb(5, 157, 0);
+        box-shadow: 0 2px 4px rgba(177, 177, 177, 0.1);
+    }
+    
+    .map-instructions h3 {
+        margin-top: 0;
+        color: #141414;
+    }
+    
+    .map-instructions ul {
+        padding-left: 20px;
+    }
+    
+    .map-instructions li {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .map-instructions img {
+        margin-right: 10px;
+        width: 25px;
+        height: 41px;
+    }
+    
+    .map-instructions p {
+        font-style: italic;
+        color: #000000;
     }
     #gear-list {
         padding-top: 2%;
